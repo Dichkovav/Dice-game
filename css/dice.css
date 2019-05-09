@@ -1,0 +1,102 @@
+body{
+    background: radial-gradient(rgb(189, 175, 100),rgb(36, 27, 27));
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container{
+    text-align: center;
+    display: inline;
+    color: rgb(22, 14, 5);
+}
+
+#branding .color{
+    color:gold;
+}
+
+#branding h1{
+    color:black;
+    
+}
+
+.clearfix::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+    
+
+
+.wrapper {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.player-0-panel{
+    width: 50%;
+    float: left;
+    height: 600px;
+    padding: 50px;
+}
+
+/* Players*/
+.player-name {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+
+#dice{
+    position: absolute;
+    padding-top: 150px;
+    margin-left: 800px;
+
+    
+}
+
+.buttons{
+    padding: 20px;
+    margin-left: 150px;
+
+}
+
+
+#btn-roll{
+    width: 60px;
+    height: 60px;
+    color: black;
+    background-color: yellow;
+   
+    
+   
+    
+}
+
+
+#btn-roll:hover{
+    box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   
+ }
+
+
+
+
+
+
+
