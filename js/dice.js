@@ -13,6 +13,9 @@ if (score>=21){
     location.reload()
 
 
+    }else if (score==1){
+     alert("You lose")
+     
     }
    
 }
